@@ -9,4 +9,7 @@ import './index.css';
 
 const store = createStore(shoppingListItemReducer);
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <App />
+  <Provider />, 
+  document.getElementById('root'));
